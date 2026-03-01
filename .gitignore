@@ -1,0 +1,53 @@
+# -----------------------------
+# Python
+# -----------------------------
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pdb
+*.egg-info/
+*.egg
+
+# -----------------------------
+# Airflow
+# -----------------------------
+logs/
+logs/*
+
+# Airflow DAG processor logs
+dag_processor_manager/
+
+# Airflow scheduler logs
+scheduler/
+scheduler/*
+
+# Airflow output artifacts
+*.log
+*.html
+
+# -----------------------------
+# Docker
+# -----------------------------
+*.pid
+*.swp
+.env
+.env.*
+docker-compose.override.yml
+
+# -----------------------------
+# OS / Editor files
+# -----------------------------
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# -----------------------------
+# Virtual environments
+# -----------------------------
+venv/
+.env/
+.venv/

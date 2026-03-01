@@ -1,0 +1,683 @@
+[2026-03-01 09:30:45,286] {processor.py:153} INFO - Started process (PID=594) to work on /opt/airflow/dags/fetch_wikipedia.py
+[2026-03-01 09:30:45,286] {processor.py:641} INFO - Processing file /opt/airflow/dags/fetch_wikipedia.py for tasks to queue
+[2026-03-01 09:30:45,287] {logging_mixin.py:115} INFO - [2026-03-01 09:30:45,286] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/fetch_wikipedia.py
+[2026-03-01 09:30:45,406] {logging_mixin.py:115} INFO - [2026-03-01 09:30:45,288] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/fetch_wikipedia.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/fetch_wikipedia.py", line 10
+    catchup=False,
+          ^
+SyntaxError: invalid syntax
+[2026-03-01 09:30:45,406] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/fetch_wikipedia.py
+[2026-03-01 09:30:46,202] {processor.py:161} INFO - Processing /opt/airflow/dags/fetch_wikipedia.py took 0.936 seconds
+[2026-03-01 09:31:16,478] {processor.py:153} INFO - Started process (PID=648) to work on /opt/airflow/dags/fetch_wikipedia.py
+[2026-03-01 09:31:16,479] {processor.py:641} INFO - Processing file /opt/airflow/dags/fetch_wikipedia.py for tasks to queue
+[2026-03-01 09:31:16,479] {logging_mixin.py:115} INFO - [2026-03-01 09:31:16,479] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/fetch_wikipedia.py
+[2026-03-01 09:31:16,483] {logging_mixin.py:115} INFO - [2026-03-01 09:31:16,481] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/fetch_wikipedia.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/fetch_wikipedia.py", line 10
+    catchup=False,
+          ^
+SyntaxError: invalid syntax
+[2026-03-01 09:31:16,483] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/fetch_wikipedia.py
+[2026-03-01 09:31:16,508] {processor.py:161} INFO - Processing /opt/airflow/dags/fetch_wikipedia.py took 0.033 seconds
+[2026-03-01 09:31:46,757] {processor.py:153} INFO - Started process (PID=700) to work on /opt/airflow/dags/fetch_wikipedia.py
+[2026-03-01 09:31:46,757] {processor.py:641} INFO - Processing file /opt/airflow/dags/fetch_wikipedia.py for tasks to queue
+[2026-03-01 09:31:46,757] {logging_mixin.py:115} INFO - [2026-03-01 09:31:46,757] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/fetch_wikipedia.py
+[2026-03-01 09:31:46,759] {logging_mixin.py:115} INFO - [2026-03-01 09:31:46,759] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/fetch_wikipedia.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/fetch_wikipedia.py", line 10
+    catchup=False,
+          ^
+SyntaxError: invalid syntax
+[2026-03-01 09:31:46,759] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/fetch_wikipedia.py
+[2026-03-01 09:31:47,014] {processor.py:161} INFO - Processing /opt/airflow/dags/fetch_wikipedia.py took 0.261 seconds
+[2026-03-01 09:32:17,647] {processor.py:153} INFO - Started process (PID=760) to work on /opt/airflow/dags/fetch_wikipedia.py
+[2026-03-01 09:32:17,653] {processor.py:641} INFO - Processing file /opt/airflow/dags/fetch_wikipedia.py for tasks to queue
+[2026-03-01 09:32:17,654] {logging_mixin.py:115} INFO - [2026-03-01 09:32:17,653] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/fetch_wikipedia.py
+[2026-03-01 09:32:17,657] {logging_mixin.py:115} INFO - [2026-03-01 09:32:17,655] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/fetch_wikipedia.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/fetch_wikipedia.py", line 10
+    catchup=False,
+          ^
+SyntaxError: invalid syntax
+[2026-03-01 09:32:17,657] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/fetch_wikipedia.py
+[2026-03-01 09:32:17,690] {processor.py:161} INFO - Processing /opt/airflow/dags/fetch_wikipedia.py took 0.049 seconds
+[2026-03-01 09:32:47,991] {processor.py:153} INFO - Started process (PID=821) to work on /opt/airflow/dags/fetch_wikipedia.py
+[2026-03-01 09:32:47,992] {processor.py:641} INFO - Processing file /opt/airflow/dags/fetch_wikipedia.py for tasks to queue
+[2026-03-01 09:32:47,992] {logging_mixin.py:115} INFO - [2026-03-01 09:32:47,992] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/fetch_wikipedia.py
+[2026-03-01 09:32:47,994] {logging_mixin.py:115} INFO - [2026-03-01 09:32:47,993] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/fetch_wikipedia.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/fetch_wikipedia.py", line 10
+    catchup=False,
+          ^
+SyntaxError: invalid syntax
+[2026-03-01 09:32:47,994] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/fetch_wikipedia.py
+[2026-03-01 09:32:48,025] {processor.py:161} INFO - Processing /opt/airflow/dags/fetch_wikipedia.py took 0.037 seconds
+[2026-03-01 09:33:18,487] {processor.py:153} INFO - Started process (PID=874) to work on /opt/airflow/dags/fetch_wikipedia.py
+[2026-03-01 09:33:18,502] {processor.py:641} INFO - Processing file /opt/airflow/dags/fetch_wikipedia.py for tasks to queue
+[2026-03-01 09:33:18,503] {logging_mixin.py:115} INFO - [2026-03-01 09:33:18,503] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/fetch_wikipedia.py
+[2026-03-01 09:33:18,505] {logging_mixin.py:115} INFO - [2026-03-01 09:33:18,504] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/fetch_wikipedia.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/fetch_wikipedia.py", line 10
+    catchup=False,
+          ^
+SyntaxError: invalid syntax
+[2026-03-01 09:33:18,505] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/fetch_wikipedia.py
+[2026-03-01 09:33:18,576] {processor.py:161} INFO - Processing /opt/airflow/dags/fetch_wikipedia.py took 0.091 seconds
+[2026-03-01 09:33:49,174] {processor.py:153} INFO - Started process (PID=935) to work on /opt/airflow/dags/fetch_wikipedia.py
+[2026-03-01 09:33:49,174] {processor.py:641} INFO - Processing file /opt/airflow/dags/fetch_wikipedia.py for tasks to queue
+[2026-03-01 09:33:49,175] {logging_mixin.py:115} INFO - [2026-03-01 09:33:49,175] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/fetch_wikipedia.py
+[2026-03-01 09:33:49,177] {logging_mixin.py:115} INFO - [2026-03-01 09:33:49,176] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/fetch_wikipedia.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/fetch_wikipedia.py", line 10
+    catchup=False,
+          ^
+SyntaxError: invalid syntax
+[2026-03-01 09:33:49,177] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/fetch_wikipedia.py
+[2026-03-01 09:33:49,202] {processor.py:161} INFO - Processing /opt/airflow/dags/fetch_wikipedia.py took 0.032 seconds
+[2026-03-01 09:34:19,278] {processor.py:153} INFO - Started process (PID=997) to work on /opt/airflow/dags/fetch_wikipedia.py
+[2026-03-01 09:34:19,279] {processor.py:641} INFO - Processing file /opt/airflow/dags/fetch_wikipedia.py for tasks to queue
+[2026-03-01 09:34:19,279] {logging_mixin.py:115} INFO - [2026-03-01 09:34:19,279] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/fetch_wikipedia.py
+[2026-03-01 09:34:19,281] {logging_mixin.py:115} INFO - [2026-03-01 09:34:19,280] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/fetch_wikipedia.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/fetch_wikipedia.py", line 10
+    catchup=False,
+          ^
+SyntaxError: invalid syntax
+[2026-03-01 09:34:19,281] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/fetch_wikipedia.py
+[2026-03-01 09:34:19,305] {processor.py:161} INFO - Processing /opt/airflow/dags/fetch_wikipedia.py took 0.031 seconds
+[2026-03-01 09:34:49,365] {processor.py:153} INFO - Started process (PID=1051) to work on /opt/airflow/dags/fetch_wikipedia.py
+[2026-03-01 09:34:49,366] {processor.py:641} INFO - Processing file /opt/airflow/dags/fetch_wikipedia.py for tasks to queue
+[2026-03-01 09:34:49,366] {logging_mixin.py:115} INFO - [2026-03-01 09:34:49,366] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/fetch_wikipedia.py
+[2026-03-01 09:34:49,368] {logging_mixin.py:115} INFO - [2026-03-01 09:34:49,367] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/fetch_wikipedia.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/fetch_wikipedia.py", line 10
+    catchup=False,
+          ^
+SyntaxError: invalid syntax
+[2026-03-01 09:34:49,368] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/fetch_wikipedia.py
+[2026-03-01 09:34:49,390] {processor.py:161} INFO - Processing /opt/airflow/dags/fetch_wikipedia.py took 0.027 seconds
+[2026-03-01 09:35:19,815] {processor.py:153} INFO - Started process (PID=1111) to work on /opt/airflow/dags/fetch_wikipedia.py
+[2026-03-01 09:35:19,816] {processor.py:641} INFO - Processing file /opt/airflow/dags/fetch_wikipedia.py for tasks to queue
+[2026-03-01 09:35:19,817] {logging_mixin.py:115} INFO - [2026-03-01 09:35:19,817] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/fetch_wikipedia.py
+[2026-03-01 09:35:19,819] {logging_mixin.py:115} INFO - [2026-03-01 09:35:19,818] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/fetch_wikipedia.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/fetch_wikipedia.py", line 10
+    catchup=False,
+          ^
+SyntaxError: invalid syntax
+[2026-03-01 09:35:19,819] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/fetch_wikipedia.py
+[2026-03-01 09:35:19,843] {processor.py:161} INFO - Processing /opt/airflow/dags/fetch_wikipedia.py took 0.032 seconds
+[2026-03-01 09:35:50,493] {processor.py:153} INFO - Started process (PID=1165) to work on /opt/airflow/dags/fetch_wikipedia.py
+[2026-03-01 09:35:50,494] {processor.py:641} INFO - Processing file /opt/airflow/dags/fetch_wikipedia.py for tasks to queue
+[2026-03-01 09:35:50,495] {logging_mixin.py:115} INFO - [2026-03-01 09:35:50,495] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/fetch_wikipedia.py
+[2026-03-01 09:35:50,496] {logging_mixin.py:115} INFO - [2026-03-01 09:35:50,495] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/fetch_wikipedia.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/fetch_wikipedia.py", line 10
+    catchup=False,
+          ^
+SyntaxError: invalid syntax
+[2026-03-01 09:35:50,496] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/fetch_wikipedia.py
+[2026-03-01 09:35:50,518] {processor.py:161} INFO - Processing /opt/airflow/dags/fetch_wikipedia.py took 0.028 seconds
+[2026-03-01 09:36:21,109] {processor.py:153} INFO - Started process (PID=1227) to work on /opt/airflow/dags/fetch_wikipedia.py
+[2026-03-01 09:36:21,109] {processor.py:641} INFO - Processing file /opt/airflow/dags/fetch_wikipedia.py for tasks to queue
+[2026-03-01 09:36:21,110] {logging_mixin.py:115} INFO - [2026-03-01 09:36:21,109] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/fetch_wikipedia.py
+[2026-03-01 09:36:21,112] {logging_mixin.py:115} INFO - [2026-03-01 09:36:21,111] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/fetch_wikipedia.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/fetch_wikipedia.py", line 10
+    catchup=False,
+          ^
+SyntaxError: invalid syntax
+[2026-03-01 09:36:21,112] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/fetch_wikipedia.py
+[2026-03-01 09:36:21,147] {processor.py:161} INFO - Processing /opt/airflow/dags/fetch_wikipedia.py took 0.042 seconds
+[2026-03-01 09:36:51,169] {processor.py:153} INFO - Started process (PID=1289) to work on /opt/airflow/dags/fetch_wikipedia.py
+[2026-03-01 09:36:51,170] {processor.py:641} INFO - Processing file /opt/airflow/dags/fetch_wikipedia.py for tasks to queue
+[2026-03-01 09:36:51,170] {logging_mixin.py:115} INFO - [2026-03-01 09:36:51,170] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/fetch_wikipedia.py
+[2026-03-01 09:36:51,172] {logging_mixin.py:115} INFO - [2026-03-01 09:36:51,171] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/fetch_wikipedia.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/fetch_wikipedia.py", line 10
+    catchup=False,
+          ^
+SyntaxError: invalid syntax
+[2026-03-01 09:36:51,172] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/fetch_wikipedia.py
+[2026-03-01 09:36:51,214] {processor.py:161} INFO - Processing /opt/airflow/dags/fetch_wikipedia.py took 0.048 seconds
+[2026-03-01 09:37:21,376] {processor.py:153} INFO - Started process (PID=1343) to work on /opt/airflow/dags/fetch_wikipedia.py
+[2026-03-01 09:37:21,376] {processor.py:641} INFO - Processing file /opt/airflow/dags/fetch_wikipedia.py for tasks to queue
+[2026-03-01 09:37:21,377] {logging_mixin.py:115} INFO - [2026-03-01 09:37:21,377] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/fetch_wikipedia.py
+[2026-03-01 09:37:21,378] {logging_mixin.py:115} INFO - [2026-03-01 09:37:21,378] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/fetch_wikipedia.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/fetch_wikipedia.py", line 10
+    catchup=False,
+          ^
+SyntaxError: invalid syntax
+[2026-03-01 09:37:21,378] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/fetch_wikipedia.py
+[2026-03-01 09:37:21,403] {processor.py:161} INFO - Processing /opt/airflow/dags/fetch_wikipedia.py took 0.029 seconds
+[2026-03-01 09:37:52,160] {processor.py:153} INFO - Started process (PID=1405) to work on /opt/airflow/dags/fetch_wikipedia.py
+[2026-03-01 09:37:52,161] {processor.py:641} INFO - Processing file /opt/airflow/dags/fetch_wikipedia.py for tasks to queue
+[2026-03-01 09:37:52,162] {logging_mixin.py:115} INFO - [2026-03-01 09:37:52,162] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/fetch_wikipedia.py
+[2026-03-01 09:37:52,163] {logging_mixin.py:115} INFO - [2026-03-01 09:37:52,163] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/fetch_wikipedia.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/fetch_wikipedia.py", line 10
+    catchup=False,
+          ^
+SyntaxError: invalid syntax
+[2026-03-01 09:37:52,164] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/fetch_wikipedia.py
+[2026-03-01 09:37:52,188] {processor.py:161} INFO - Processing /opt/airflow/dags/fetch_wikipedia.py took 0.031 seconds
+[2026-03-01 09:38:23,581] {processor.py:153} INFO - Started process (PID=1458) to work on /opt/airflow/dags/fetch_wikipedia.py
+[2026-03-01 09:38:23,582] {processor.py:641} INFO - Processing file /opt/airflow/dags/fetch_wikipedia.py for tasks to queue
+[2026-03-01 09:38:23,582] {logging_mixin.py:115} INFO - [2026-03-01 09:38:23,582] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/fetch_wikipedia.py
+[2026-03-01 09:38:23,585] {logging_mixin.py:115} INFO - [2026-03-01 09:38:23,583] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/fetch_wikipedia.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/fetch_wikipedia.py", line 10
+    catchup=False,
+          ^
+SyntaxError: invalid syntax
+[2026-03-01 09:38:23,585] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/fetch_wikipedia.py
+[2026-03-01 09:38:23,634] {processor.py:161} INFO - Processing /opt/airflow/dags/fetch_wikipedia.py took 0.056 seconds
+[2026-03-01 09:38:53,767] {processor.py:153} INFO - Started process (PID=1519) to work on /opt/airflow/dags/fetch_wikipedia.py
+[2026-03-01 09:38:53,778] {processor.py:641} INFO - Processing file /opt/airflow/dags/fetch_wikipedia.py for tasks to queue
+[2026-03-01 09:38:53,778] {logging_mixin.py:115} INFO - [2026-03-01 09:38:53,778] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/fetch_wikipedia.py
+[2026-03-01 09:38:53,781] {logging_mixin.py:115} INFO - [2026-03-01 09:38:53,779] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/fetch_wikipedia.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/fetch_wikipedia.py", line 10
+    catchup=False,
+          ^
+SyntaxError: invalid syntax
+[2026-03-01 09:38:53,781] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/fetch_wikipedia.py
+[2026-03-01 09:38:53,815] {processor.py:161} INFO - Processing /opt/airflow/dags/fetch_wikipedia.py took 0.051 seconds
+[2026-03-01 09:39:24,122] {processor.py:153} INFO - Started process (PID=1580) to work on /opt/airflow/dags/fetch_wikipedia.py
+[2026-03-01 09:39:24,123] {processor.py:641} INFO - Processing file /opt/airflow/dags/fetch_wikipedia.py for tasks to queue
+[2026-03-01 09:39:24,124] {logging_mixin.py:115} INFO - [2026-03-01 09:39:24,124] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/fetch_wikipedia.py
+[2026-03-01 09:39:24,126] {logging_mixin.py:115} INFO - [2026-03-01 09:39:24,126] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/fetch_wikipedia.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/fetch_wikipedia.py", line 10
+    catchup=False,
+          ^
+SyntaxError: invalid syntax
+[2026-03-01 09:39:24,127] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/fetch_wikipedia.py
+[2026-03-01 09:39:24,182] {processor.py:161} INFO - Processing /opt/airflow/dags/fetch_wikipedia.py took 0.081 seconds
+[2026-03-01 09:39:54,342] {processor.py:153} INFO - Started process (PID=1633) to work on /opt/airflow/dags/fetch_wikipedia.py
+[2026-03-01 09:39:54,343] {processor.py:641} INFO - Processing file /opt/airflow/dags/fetch_wikipedia.py for tasks to queue
+[2026-03-01 09:39:54,343] {logging_mixin.py:115} INFO - [2026-03-01 09:39:54,343] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/fetch_wikipedia.py
+[2026-03-01 09:39:54,345] {logging_mixin.py:115} INFO - [2026-03-01 09:39:54,344] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/fetch_wikipedia.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/fetch_wikipedia.py", line 10
+    catchup=False,
+          ^
+SyntaxError: invalid syntax
+[2026-03-01 09:39:54,345] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/fetch_wikipedia.py
+[2026-03-01 09:39:54,376] {processor.py:161} INFO - Processing /opt/airflow/dags/fetch_wikipedia.py took 0.037 seconds
+[2026-03-01 09:40:24,610] {processor.py:153} INFO - Started process (PID=1697) to work on /opt/airflow/dags/fetch_wikipedia.py
+[2026-03-01 09:40:24,610] {processor.py:641} INFO - Processing file /opt/airflow/dags/fetch_wikipedia.py for tasks to queue
+[2026-03-01 09:40:24,611] {logging_mixin.py:115} INFO - [2026-03-01 09:40:24,610] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/fetch_wikipedia.py
+[2026-03-01 09:40:24,612] {logging_mixin.py:115} INFO - [2026-03-01 09:40:24,611] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/fetch_wikipedia.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/fetch_wikipedia.py", line 10
+    catchup=False,
+          ^
+SyntaxError: invalid syntax
+[2026-03-01 09:40:24,612] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/fetch_wikipedia.py
+[2026-03-01 09:40:24,636] {processor.py:161} INFO - Processing /opt/airflow/dags/fetch_wikipedia.py took 0.029 seconds
+[2026-03-01 09:40:54,940] {processor.py:153} INFO - Started process (PID=1750) to work on /opt/airflow/dags/fetch_wikipedia.py
+[2026-03-01 09:40:54,945] {processor.py:641} INFO - Processing file /opt/airflow/dags/fetch_wikipedia.py for tasks to queue
+[2026-03-01 09:40:54,946] {logging_mixin.py:115} INFO - [2026-03-01 09:40:54,945] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/fetch_wikipedia.py
+[2026-03-01 09:40:54,964] {logging_mixin.py:115} INFO - [2026-03-01 09:40:54,963] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/fetch_wikipedia.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/fetch_wikipedia.py", line 10
+    catchup=False,
+          ^
+SyntaxError: invalid syntax
+[2026-03-01 09:40:54,964] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/fetch_wikipedia.py
+[2026-03-01 09:40:55,002] {processor.py:161} INFO - Processing /opt/airflow/dags/fetch_wikipedia.py took 0.065 seconds
+[2026-03-01 09:41:25,328] {processor.py:153} INFO - Started process (PID=1813) to work on /opt/airflow/dags/fetch_wikipedia.py
+[2026-03-01 09:41:25,329] {processor.py:641} INFO - Processing file /opt/airflow/dags/fetch_wikipedia.py for tasks to queue
+[2026-03-01 09:41:25,330] {logging_mixin.py:115} INFO - [2026-03-01 09:41:25,330] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/fetch_wikipedia.py
+[2026-03-01 09:41:25,331] {logging_mixin.py:115} INFO - [2026-03-01 09:41:25,331] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/fetch_wikipedia.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/fetch_wikipedia.py", line 10
+    catchup=False,
+          ^
+SyntaxError: invalid syntax
+[2026-03-01 09:41:25,332] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/fetch_wikipedia.py
+[2026-03-01 09:41:25,357] {processor.py:161} INFO - Processing /opt/airflow/dags/fetch_wikipedia.py took 0.032 seconds
+[2026-03-01 09:41:55,867] {processor.py:153} INFO - Started process (PID=1868) to work on /opt/airflow/dags/fetch_wikipedia.py
+[2026-03-01 09:41:55,868] {processor.py:641} INFO - Processing file /opt/airflow/dags/fetch_wikipedia.py for tasks to queue
+[2026-03-01 09:41:55,868] {logging_mixin.py:115} INFO - [2026-03-01 09:41:55,868] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/fetch_wikipedia.py
+[2026-03-01 09:41:55,870] {logging_mixin.py:115} INFO - [2026-03-01 09:41:55,869] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/fetch_wikipedia.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/fetch_wikipedia.py", line 10
+    catchup=False,
+          ^
+SyntaxError: invalid syntax
+[2026-03-01 09:41:55,870] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/fetch_wikipedia.py
+[2026-03-01 09:41:55,892] {processor.py:161} INFO - Processing /opt/airflow/dags/fetch_wikipedia.py took 0.027 seconds
+[2026-03-01 09:42:26,188] {processor.py:153} INFO - Started process (PID=1930) to work on /opt/airflow/dags/fetch_wikipedia.py
+[2026-03-01 09:42:26,190] {processor.py:641} INFO - Processing file /opt/airflow/dags/fetch_wikipedia.py for tasks to queue
+[2026-03-01 09:42:26,191] {logging_mixin.py:115} INFO - [2026-03-01 09:42:26,191] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/fetch_wikipedia.py
+[2026-03-01 09:42:26,193] {logging_mixin.py:115} INFO - [2026-03-01 09:42:26,193] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/fetch_wikipedia.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/fetch_wikipedia.py", line 10
+    catchup=False,
+          ^
+SyntaxError: invalid syntax
+[2026-03-01 09:42:26,194] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/fetch_wikipedia.py
+[2026-03-01 09:42:26,217] {processor.py:161} INFO - Processing /opt/airflow/dags/fetch_wikipedia.py took 0.032 seconds
+[2026-03-01 09:42:56,793] {processor.py:153} INFO - Started process (PID=1992) to work on /opt/airflow/dags/fetch_wikipedia.py
+[2026-03-01 09:42:56,794] {processor.py:641} INFO - Processing file /opt/airflow/dags/fetch_wikipedia.py for tasks to queue
+[2026-03-01 09:42:56,794] {logging_mixin.py:115} INFO - [2026-03-01 09:42:56,794] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/fetch_wikipedia.py
+[2026-03-01 09:42:56,798] {logging_mixin.py:115} INFO - [2026-03-01 09:42:56,796] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/fetch_wikipedia.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/fetch_wikipedia.py", line 10
+    catchup=False,
+          ^
+SyntaxError: invalid syntax
+[2026-03-01 09:42:56,798] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/fetch_wikipedia.py
+[2026-03-01 09:42:56,819] {processor.py:161} INFO - Processing /opt/airflow/dags/fetch_wikipedia.py took 0.028 seconds
+[2026-03-01 09:43:27,135] {processor.py:153} INFO - Started process (PID=2045) to work on /opt/airflow/dags/fetch_wikipedia.py
+[2026-03-01 09:43:27,135] {processor.py:641} INFO - Processing file /opt/airflow/dags/fetch_wikipedia.py for tasks to queue
+[2026-03-01 09:43:27,136] {logging_mixin.py:115} INFO - [2026-03-01 09:43:27,136] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/fetch_wikipedia.py
+[2026-03-01 09:43:27,137] {logging_mixin.py:115} INFO - [2026-03-01 09:43:27,137] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/fetch_wikipedia.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/fetch_wikipedia.py", line 10
+    catchup=False,
+          ^
+SyntaxError: invalid syntax
+[2026-03-01 09:43:27,137] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/fetch_wikipedia.py
+[2026-03-01 09:43:27,179] {processor.py:161} INFO - Processing /opt/airflow/dags/fetch_wikipedia.py took 0.047 seconds
+[2026-03-01 09:43:57,933] {processor.py:153} INFO - Started process (PID=2107) to work on /opt/airflow/dags/fetch_wikipedia.py
+[2026-03-01 09:43:57,935] {processor.py:641} INFO - Processing file /opt/airflow/dags/fetch_wikipedia.py for tasks to queue
+[2026-03-01 09:43:57,935] {logging_mixin.py:115} INFO - [2026-03-01 09:43:57,935] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/fetch_wikipedia.py
+[2026-03-01 09:43:57,937] {logging_mixin.py:115} INFO - [2026-03-01 09:43:57,936] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/fetch_wikipedia.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/fetch_wikipedia.py", line 10
+    catchup=False,
+          ^
+SyntaxError: invalid syntax
+[2026-03-01 09:43:57,937] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/fetch_wikipedia.py
+[2026-03-01 09:43:57,964] {processor.py:161} INFO - Processing /opt/airflow/dags/fetch_wikipedia.py took 0.034 seconds
+[2026-03-01 09:44:28,296] {processor.py:153} INFO - Started process (PID=2170) to work on /opt/airflow/dags/fetch_wikipedia.py
+[2026-03-01 09:44:28,296] {processor.py:641} INFO - Processing file /opt/airflow/dags/fetch_wikipedia.py for tasks to queue
+[2026-03-01 09:44:28,298] {logging_mixin.py:115} INFO - [2026-03-01 09:44:28,298] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/fetch_wikipedia.py
+[2026-03-01 09:44:28,300] {logging_mixin.py:115} INFO - [2026-03-01 09:44:28,299] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/fetch_wikipedia.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/fetch_wikipedia.py", line 10
+    catchup=False,
+          ^
+SyntaxError: invalid syntax
+[2026-03-01 09:44:28,300] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/fetch_wikipedia.py
+[2026-03-01 09:44:28,334] {processor.py:161} INFO - Processing /opt/airflow/dags/fetch_wikipedia.py took 0.041 seconds
+[2026-03-01 09:44:58,754] {processor.py:153} INFO - Started process (PID=2230) to work on /opt/airflow/dags/fetch_wikipedia.py
+[2026-03-01 09:44:58,756] {processor.py:641} INFO - Processing file /opt/airflow/dags/fetch_wikipedia.py for tasks to queue
+[2026-03-01 09:44:58,756] {logging_mixin.py:115} INFO - [2026-03-01 09:44:58,756] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/fetch_wikipedia.py
+[2026-03-01 09:44:58,762] {logging_mixin.py:115} INFO - [2026-03-01 09:44:58,761] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/fetch_wikipedia.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/fetch_wikipedia.py", line 14, in <module>
+    "retry_delay": timedelta(minutes=2),
+TypeError: __init__() got an unexpected keyword argument 'schedule'
+[2026-03-01 09:44:58,762] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/fetch_wikipedia.py
+[2026-03-01 09:44:58,785] {processor.py:161} INFO - Processing /opt/airflow/dags/fetch_wikipedia.py took 0.035 seconds
+[2026-03-01 09:45:29,104] {processor.py:153} INFO - Started process (PID=2284) to work on /opt/airflow/dags/fetch_wikipedia.py
+[2026-03-01 09:45:29,105] {processor.py:641} INFO - Processing file /opt/airflow/dags/fetch_wikipedia.py for tasks to queue
+[2026-03-01 09:45:29,105] {logging_mixin.py:115} INFO - [2026-03-01 09:45:29,105] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/fetch_wikipedia.py
+[2026-03-01 09:45:29,110] {logging_mixin.py:115} INFO - [2026-03-01 09:45:29,110] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/fetch_wikipedia.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/fetch_wikipedia.py", line 14, in <module>
+    "retry_delay": timedelta(minutes=2),
+TypeError: __init__() got an unexpected keyword argument 'schedule'
+[2026-03-01 09:45:29,111] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/fetch_wikipedia.py
+[2026-03-01 09:45:29,174] {processor.py:161} INFO - Processing /opt/airflow/dags/fetch_wikipedia.py took 0.072 seconds
+[2026-03-01 09:45:59,461] {processor.py:153} INFO - Started process (PID=2345) to work on /opt/airflow/dags/fetch_wikipedia.py
+[2026-03-01 09:45:59,462] {processor.py:641} INFO - Processing file /opt/airflow/dags/fetch_wikipedia.py for tasks to queue
+[2026-03-01 09:45:59,463] {logging_mixin.py:115} INFO - [2026-03-01 09:45:59,463] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/fetch_wikipedia.py
+[2026-03-01 09:45:59,468] {logging_mixin.py:115} INFO - [2026-03-01 09:45:59,467] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/fetch_wikipedia.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/fetch_wikipedia.py", line 14, in <module>
+    "retry_delay": timedelta(minutes=2),
+TypeError: __init__() got an unexpected keyword argument 'schedule'
+[2026-03-01 09:45:59,468] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/fetch_wikipedia.py
+[2026-03-01 09:45:59,494] {processor.py:161} INFO - Processing /opt/airflow/dags/fetch_wikipedia.py took 0.036 seconds
+[2026-03-01 09:46:29,657] {processor.py:153} INFO - Started process (PID=2395) to work on /opt/airflow/dags/fetch_wikipedia.py
+[2026-03-01 09:46:29,657] {processor.py:641} INFO - Processing file /opt/airflow/dags/fetch_wikipedia.py for tasks to queue
+[2026-03-01 09:46:29,657] {logging_mixin.py:115} INFO - [2026-03-01 09:46:29,657] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/fetch_wikipedia.py
+[2026-03-01 09:46:29,661] {logging_mixin.py:115} INFO - [2026-03-01 09:46:29,660] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/fetch_wikipedia.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/fetch_wikipedia.py", line 14, in <module>
+    "retry_delay": timedelta(minutes=2),
+TypeError: __init__() got an unexpected keyword argument 'schedule'
+[2026-03-01 09:46:29,661] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/fetch_wikipedia.py
+[2026-03-01 09:46:29,734] {processor.py:161} INFO - Processing /opt/airflow/dags/fetch_wikipedia.py took 0.080 seconds
+[2026-03-01 09:46:57,937] {processor.py:153} INFO - Started process (PID=2454) to work on /opt/airflow/dags/fetch_wikipedia.py
+[2026-03-01 09:46:57,938] {processor.py:641} INFO - Processing file /opt/airflow/dags/fetch_wikipedia.py for tasks to queue
+[2026-03-01 09:46:57,938] {logging_mixin.py:115} INFO - [2026-03-01 09:46:57,938] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/fetch_wikipedia.py
+[2026-03-01 09:46:57,949] {processor.py:651} INFO - DAG(s) dict_keys(['fetch_wikipedia_page']) retrieved from /opt/airflow/dags/fetch_wikipedia.py
+[2026-03-01 09:46:58,187] {logging_mixin.py:115} INFO - [2026-03-01 09:46:58,187] {manager.py:508} INFO - Created Permission View: can edit on DAG:fetch_wikipedia_page
+[2026-03-01 09:46:58,193] {logging_mixin.py:115} INFO - [2026-03-01 09:46:58,193] {manager.py:508} INFO - Created Permission View: can read on DAG:fetch_wikipedia_page
+[2026-03-01 09:46:58,197] {logging_mixin.py:115} INFO - [2026-03-01 09:46:58,197] {manager.py:508} INFO - Created Permission View: can delete on DAG:fetch_wikipedia_page
+[2026-03-01 09:46:58,197] {logging_mixin.py:115} INFO - [2026-03-01 09:46:58,197] {dag.py:2371} INFO - Sync 1 DAGs
+[2026-03-01 09:46:58,203] {logging_mixin.py:115} INFO - [2026-03-01 09:46:58,203] {dag.py:2390} INFO - Creating ORM DAG for fetch_wikipedia_page
+[2026-03-01 09:46:58,211] {logging_mixin.py:115} INFO - [2026-03-01 09:46:58,211] {dag.py:2919} INFO - Setting next_dagrun for fetch_wikipedia_page to 2026-03-01T08:00:00+00:00, run_after=2026-03-01T09:00:00+00:00
+[2026-03-01 09:46:58,225] {processor.py:161} INFO - Processing /opt/airflow/dags/fetch_wikipedia.py took 0.291 seconds
+[2026-03-01 09:47:28,745] {processor.py:153} INFO - Started process (PID=2508) to work on /opt/airflow/dags/fetch_wikipedia.py
+[2026-03-01 09:47:28,751] {processor.py:641} INFO - Processing file /opt/airflow/dags/fetch_wikipedia.py for tasks to queue
+[2026-03-01 09:47:28,751] {logging_mixin.py:115} INFO - [2026-03-01 09:47:28,751] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/fetch_wikipedia.py
+[2026-03-01 09:47:28,770] {processor.py:651} INFO - DAG(s) dict_keys(['fetch_wikipedia_page']) retrieved from /opt/airflow/dags/fetch_wikipedia.py
+[2026-03-01 09:47:29,070] {logging_mixin.py:115} INFO - [2026-03-01 09:47:29,070] {dag.py:2371} INFO - Sync 1 DAGs
+[2026-03-01 09:47:29,105] {logging_mixin.py:115} INFO - [2026-03-01 09:47:29,105] {dag.py:2919} INFO - Setting next_dagrun for fetch_wikipedia_page to 2026-03-01T09:00:00+00:00, run_after=2026-03-01T10:00:00+00:00
+[2026-03-01 09:47:29,175] {processor.py:161} INFO - Processing /opt/airflow/dags/fetch_wikipedia.py took 0.433 seconds
+[2026-03-01 09:47:59,359] {processor.py:153} INFO - Started process (PID=2561) to work on /opt/airflow/dags/fetch_wikipedia.py
+[2026-03-01 09:47:59,360] {processor.py:641} INFO - Processing file /opt/airflow/dags/fetch_wikipedia.py for tasks to queue
+[2026-03-01 09:47:59,360] {logging_mixin.py:115} INFO - [2026-03-01 09:47:59,360] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/fetch_wikipedia.py
+[2026-03-01 09:47:59,366] {processor.py:651} INFO - DAG(s) dict_keys(['fetch_wikipedia_page']) retrieved from /opt/airflow/dags/fetch_wikipedia.py
+[2026-03-01 09:47:59,522] {logging_mixin.py:115} INFO - [2026-03-01 09:47:59,522] {dag.py:2371} INFO - Sync 1 DAGs
+[2026-03-01 09:47:59,536] {logging_mixin.py:115} INFO - [2026-03-01 09:47:59,536] {dag.py:2919} INFO - Setting next_dagrun for fetch_wikipedia_page to 2026-03-01T09:00:00+00:00, run_after=2026-03-01T10:00:00+00:00
+[2026-03-01 09:47:59,545] {processor.py:161} INFO - Processing /opt/airflow/dags/fetch_wikipedia.py took 0.189 seconds
+[2026-03-01 09:48:29,836] {processor.py:153} INFO - Started process (PID=2623) to work on /opt/airflow/dags/fetch_wikipedia.py
+[2026-03-01 09:48:29,838] {processor.py:641} INFO - Processing file /opt/airflow/dags/fetch_wikipedia.py for tasks to queue
+[2026-03-01 09:48:29,841] {logging_mixin.py:115} INFO - [2026-03-01 09:48:29,841] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/fetch_wikipedia.py
+[2026-03-01 09:48:29,846] {processor.py:651} INFO - DAG(s) dict_keys(['fetch_wikipedia_page']) retrieved from /opt/airflow/dags/fetch_wikipedia.py
+[2026-03-01 09:48:29,988] {logging_mixin.py:115} INFO - [2026-03-01 09:48:29,988] {dag.py:2371} INFO - Sync 1 DAGs
+[2026-03-01 09:48:30,001] {logging_mixin.py:115} INFO - [2026-03-01 09:48:30,001] {dag.py:2919} INFO - Setting next_dagrun for fetch_wikipedia_page to 2026-03-01T09:00:00+00:00, run_after=2026-03-01T10:00:00+00:00
+[2026-03-01 09:48:30,009] {processor.py:161} INFO - Processing /opt/airflow/dags/fetch_wikipedia.py took 0.176 seconds
+[2026-03-01 09:49:00,437] {processor.py:153} INFO - Started process (PID=2686) to work on /opt/airflow/dags/fetch_wikipedia.py
+[2026-03-01 09:49:00,441] {processor.py:641} INFO - Processing file /opt/airflow/dags/fetch_wikipedia.py for tasks to queue
+[2026-03-01 09:49:00,446] {logging_mixin.py:115} INFO - [2026-03-01 09:49:00,446] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/fetch_wikipedia.py
+[2026-03-01 09:49:00,457] {processor.py:651} INFO - DAG(s) dict_keys(['fetch_wikipedia_page']) retrieved from /opt/airflow/dags/fetch_wikipedia.py
+[2026-03-01 09:49:00,606] {logging_mixin.py:115} INFO - [2026-03-01 09:49:00,606] {dag.py:2371} INFO - Sync 1 DAGs
+[2026-03-01 09:49:00,619] {logging_mixin.py:115} INFO - [2026-03-01 09:49:00,619] {dag.py:2919} INFO - Setting next_dagrun for fetch_wikipedia_page to 2026-03-01T09:00:00+00:00, run_after=2026-03-01T10:00:00+00:00
+[2026-03-01 09:49:00,641] {processor.py:161} INFO - Processing /opt/airflow/dags/fetch_wikipedia.py took 0.206 seconds
+[2026-03-01 09:49:30,967] {processor.py:153} INFO - Started process (PID=2740) to work on /opt/airflow/dags/fetch_wikipedia.py
+[2026-03-01 09:49:30,969] {processor.py:641} INFO - Processing file /opt/airflow/dags/fetch_wikipedia.py for tasks to queue
+[2026-03-01 09:49:30,970] {logging_mixin.py:115} INFO - [2026-03-01 09:49:30,970] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/fetch_wikipedia.py
+[2026-03-01 09:49:30,981] {processor.py:651} INFO - DAG(s) dict_keys(['fetch_wikipedia_page']) retrieved from /opt/airflow/dags/fetch_wikipedia.py
+[2026-03-01 09:49:31,515] {logging_mixin.py:115} INFO - [2026-03-01 09:49:31,515] {dag.py:2371} INFO - Sync 1 DAGs
+[2026-03-01 09:49:31,610] {logging_mixin.py:115} INFO - [2026-03-01 09:49:31,610] {dag.py:2919} INFO - Setting next_dagrun for fetch_wikipedia_page to 2026-03-01T09:00:00+00:00, run_after=2026-03-01T10:00:00+00:00
+[2026-03-01 09:49:31,725] {processor.py:161} INFO - Processing /opt/airflow/dags/fetch_wikipedia.py took 0.761 seconds
+[2026-03-01 09:50:02,509] {processor.py:153} INFO - Started process (PID=2801) to work on /opt/airflow/dags/fetch_wikipedia.py
+[2026-03-01 09:50:02,515] {processor.py:641} INFO - Processing file /opt/airflow/dags/fetch_wikipedia.py for tasks to queue
+[2026-03-01 09:50:02,515] {logging_mixin.py:115} INFO - [2026-03-01 09:50:02,515] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/fetch_wikipedia.py
+[2026-03-01 09:50:02,533] {processor.py:651} INFO - DAG(s) dict_keys(['fetch_wikipedia_page']) retrieved from /opt/airflow/dags/fetch_wikipedia.py
+[2026-03-01 09:50:02,685] {logging_mixin.py:115} INFO - [2026-03-01 09:50:02,685] {dag.py:2371} INFO - Sync 1 DAGs
+[2026-03-01 09:50:02,698] {logging_mixin.py:115} INFO - [2026-03-01 09:50:02,698] {dag.py:2919} INFO - Setting next_dagrun for fetch_wikipedia_page to 2026-03-01T09:00:00+00:00, run_after=2026-03-01T10:00:00+00:00
+[2026-03-01 09:50:02,721] {processor.py:161} INFO - Processing /opt/airflow/dags/fetch_wikipedia.py took 0.217 seconds
+[2026-03-01 09:50:33,639] {processor.py:153} INFO - Started process (PID=2853) to work on /opt/airflow/dags/fetch_wikipedia.py
+[2026-03-01 09:50:33,639] {processor.py:641} INFO - Processing file /opt/airflow/dags/fetch_wikipedia.py for tasks to queue
+[2026-03-01 09:50:33,639] {logging_mixin.py:115} INFO - [2026-03-01 09:50:33,639] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/fetch_wikipedia.py
+[2026-03-01 09:50:33,647] {processor.py:651} INFO - DAG(s) dict_keys(['fetch_wikipedia_page']) retrieved from /opt/airflow/dags/fetch_wikipedia.py
+[2026-03-01 09:50:34,802] {logging_mixin.py:115} INFO - [2026-03-01 09:50:34,802] {dag.py:2371} INFO - Sync 1 DAGs
+[2026-03-01 09:50:35,005] {logging_mixin.py:115} INFO - [2026-03-01 09:50:35,005] {dag.py:2919} INFO - Setting next_dagrun for fetch_wikipedia_page to 2026-03-01T09:00:00+00:00, run_after=2026-03-01T10:00:00+00:00
+[2026-03-01 09:50:35,092] {processor.py:161} INFO - Processing /opt/airflow/dags/fetch_wikipedia.py took 1.439 seconds
+[2026-03-01 09:51:05,685] {processor.py:153} INFO - Started process (PID=2915) to work on /opt/airflow/dags/fetch_wikipedia.py
+[2026-03-01 09:51:05,686] {processor.py:641} INFO - Processing file /opt/airflow/dags/fetch_wikipedia.py for tasks to queue
+[2026-03-01 09:51:05,686] {logging_mixin.py:115} INFO - [2026-03-01 09:51:05,686] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/fetch_wikipedia.py
+[2026-03-01 09:51:05,692] {processor.py:651} INFO - DAG(s) dict_keys(['fetch_wikipedia_page']) retrieved from /opt/airflow/dags/fetch_wikipedia.py
+[2026-03-01 09:51:05,939] {logging_mixin.py:115} INFO - [2026-03-01 09:51:05,939] {dag.py:2371} INFO - Sync 1 DAGs
+[2026-03-01 09:51:05,959] {logging_mixin.py:115} INFO - [2026-03-01 09:51:05,959] {dag.py:2919} INFO - Setting next_dagrun for fetch_wikipedia_page to 2026-03-01T09:00:00+00:00, run_after=2026-03-01T10:00:00+00:00
+[2026-03-01 09:51:05,968] {processor.py:161} INFO - Processing /opt/airflow/dags/fetch_wikipedia.py took 0.286 seconds
+[2026-03-01 09:51:36,829] {processor.py:153} INFO - Started process (PID=2969) to work on /opt/airflow/dags/fetch_wikipedia.py
+[2026-03-01 09:51:36,832] {processor.py:641} INFO - Processing file /opt/airflow/dags/fetch_wikipedia.py for tasks to queue
+[2026-03-01 09:51:36,833] {logging_mixin.py:115} INFO - [2026-03-01 09:51:36,833] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/fetch_wikipedia.py
+[2026-03-01 09:51:36,841] {processor.py:651} INFO - DAG(s) dict_keys(['fetch_wikipedia_page']) retrieved from /opt/airflow/dags/fetch_wikipedia.py
+[2026-03-01 09:51:37,828] {logging_mixin.py:115} INFO - [2026-03-01 09:51:37,828] {dag.py:2371} INFO - Sync 1 DAGs
+[2026-03-01 09:51:37,893] {logging_mixin.py:115} INFO - [2026-03-01 09:51:37,893] {dag.py:2919} INFO - Setting next_dagrun for fetch_wikipedia_page to 2026-03-01T09:00:00+00:00, run_after=2026-03-01T10:00:00+00:00
+[2026-03-01 09:51:37,942] {processor.py:161} INFO - Processing /opt/airflow/dags/fetch_wikipedia.py took 1.124 seconds
+[2026-03-01 09:52:08,717] {processor.py:153} INFO - Started process (PID=3034) to work on /opt/airflow/dags/fetch_wikipedia.py
+[2026-03-01 09:52:08,718] {processor.py:641} INFO - Processing file /opt/airflow/dags/fetch_wikipedia.py for tasks to queue
+[2026-03-01 09:52:08,722] {logging_mixin.py:115} INFO - [2026-03-01 09:52:08,718] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/fetch_wikipedia.py
+[2026-03-01 09:52:08,731] {processor.py:651} INFO - DAG(s) dict_keys(['fetch_wikipedia_page']) retrieved from /opt/airflow/dags/fetch_wikipedia.py
+[2026-03-01 09:52:08,939] {logging_mixin.py:115} INFO - [2026-03-01 09:52:08,939] {dag.py:2371} INFO - Sync 1 DAGs
+[2026-03-01 09:52:08,968] {logging_mixin.py:115} INFO - [2026-03-01 09:52:08,968] {dag.py:2919} INFO - Setting next_dagrun for fetch_wikipedia_page to 2026-03-01T09:00:00+00:00, run_after=2026-03-01T10:00:00+00:00
+[2026-03-01 09:52:08,980] {processor.py:161} INFO - Processing /opt/airflow/dags/fetch_wikipedia.py took 0.268 seconds
+[2026-03-01 09:52:39,679] {processor.py:153} INFO - Started process (PID=3098) to work on /opt/airflow/dags/fetch_wikipedia.py
+[2026-03-01 09:52:39,691] {processor.py:641} INFO - Processing file /opt/airflow/dags/fetch_wikipedia.py for tasks to queue
+[2026-03-01 09:52:39,691] {logging_mixin.py:115} INFO - [2026-03-01 09:52:39,691] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/fetch_wikipedia.py
+[2026-03-01 09:52:39,697] {processor.py:651} INFO - DAG(s) dict_keys(['fetch_wikipedia_page']) retrieved from /opt/airflow/dags/fetch_wikipedia.py
+[2026-03-01 09:52:40,114] {logging_mixin.py:115} INFO - [2026-03-01 09:52:40,114] {dag.py:2371} INFO - Sync 1 DAGs
+[2026-03-01 09:52:40,231] {logging_mixin.py:115} INFO - [2026-03-01 09:52:40,231] {dag.py:2919} INFO - Setting next_dagrun for fetch_wikipedia_page to 2026-03-01T09:00:00+00:00, run_after=2026-03-01T10:00:00+00:00
+[2026-03-01 09:52:40,285] {processor.py:161} INFO - Processing /opt/airflow/dags/fetch_wikipedia.py took 0.609 seconds
+[2026-03-01 09:53:10,381] {processor.py:153} INFO - Started process (PID=3151) to work on /opt/airflow/dags/fetch_wikipedia.py
+[2026-03-01 09:53:10,390] {processor.py:641} INFO - Processing file /opt/airflow/dags/fetch_wikipedia.py for tasks to queue
+[2026-03-01 09:53:10,391] {logging_mixin.py:115} INFO - [2026-03-01 09:53:10,391] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/fetch_wikipedia.py
+[2026-03-01 09:53:10,399] {processor.py:651} INFO - DAG(s) dict_keys(['fetch_wikipedia_page']) retrieved from /opt/airflow/dags/fetch_wikipedia.py
+[2026-03-01 09:53:10,695] {logging_mixin.py:115} INFO - [2026-03-01 09:53:10,694] {dag.py:2371} INFO - Sync 1 DAGs
+[2026-03-01 09:53:10,771] {logging_mixin.py:115} INFO - [2026-03-01 09:53:10,771] {dag.py:2919} INFO - Setting next_dagrun for fetch_wikipedia_page to 2026-03-01T09:00:00+00:00, run_after=2026-03-01T10:00:00+00:00
+[2026-03-01 09:53:10,784] {processor.py:161} INFO - Processing /opt/airflow/dags/fetch_wikipedia.py took 0.410 seconds
+[2026-03-01 09:53:41,010] {processor.py:153} INFO - Started process (PID=3214) to work on /opt/airflow/dags/fetch_wikipedia.py
+[2026-03-01 09:53:41,023] {processor.py:641} INFO - Processing file /opt/airflow/dags/fetch_wikipedia.py for tasks to queue
+[2026-03-01 09:53:41,024] {logging_mixin.py:115} INFO - [2026-03-01 09:53:41,024] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/fetch_wikipedia.py
+[2026-03-01 09:53:41,060] {processor.py:651} INFO - DAG(s) dict_keys(['fetch_wikipedia_page']) retrieved from /opt/airflow/dags/fetch_wikipedia.py
+[2026-03-01 09:53:42,040] {logging_mixin.py:115} INFO - [2026-03-01 09:53:42,040] {dag.py:2371} INFO - Sync 1 DAGs
+[2026-03-01 09:53:42,083] {logging_mixin.py:115} INFO - [2026-03-01 09:53:42,082] {dag.py:2919} INFO - Setting next_dagrun for fetch_wikipedia_page to 2026-03-01T09:00:00+00:00, run_after=2026-03-01T10:00:00+00:00
+[2026-03-01 09:53:42,121] {processor.py:161} INFO - Processing /opt/airflow/dags/fetch_wikipedia.py took 1.130 seconds
+[2026-03-01 09:54:12,300] {processor.py:153} INFO - Started process (PID=3267) to work on /opt/airflow/dags/fetch_wikipedia.py
+[2026-03-01 09:54:12,309] {processor.py:641} INFO - Processing file /opt/airflow/dags/fetch_wikipedia.py for tasks to queue
+[2026-03-01 09:54:12,309] {logging_mixin.py:115} INFO - [2026-03-01 09:54:12,309] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/fetch_wikipedia.py
+[2026-03-01 09:54:12,317] {processor.py:651} INFO - DAG(s) dict_keys(['fetch_wikipedia_page']) retrieved from /opt/airflow/dags/fetch_wikipedia.py
+[2026-03-01 09:54:12,515] {logging_mixin.py:115} INFO - [2026-03-01 09:54:12,515] {dag.py:2371} INFO - Sync 1 DAGs
+[2026-03-01 09:54:12,543] {logging_mixin.py:115} INFO - [2026-03-01 09:54:12,543] {dag.py:2919} INFO - Setting next_dagrun for fetch_wikipedia_page to 2026-03-01T09:00:00+00:00, run_after=2026-03-01T10:00:00+00:00
+[2026-03-01 09:54:12,556] {processor.py:161} INFO - Processing /opt/airflow/dags/fetch_wikipedia.py took 0.260 seconds
+[2026-03-01 09:54:43,497] {processor.py:153} INFO - Started process (PID=3329) to work on /opt/airflow/dags/fetch_wikipedia.py
+[2026-03-01 09:54:43,500] {processor.py:641} INFO - Processing file /opt/airflow/dags/fetch_wikipedia.py for tasks to queue
+[2026-03-01 09:54:43,501] {logging_mixin.py:115} INFO - [2026-03-01 09:54:43,501] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/fetch_wikipedia.py
+[2026-03-01 09:54:43,508] {processor.py:651} INFO - DAG(s) dict_keys(['fetch_wikipedia_page']) retrieved from /opt/airflow/dags/fetch_wikipedia.py
+[2026-03-01 09:54:43,894] {logging_mixin.py:115} INFO - [2026-03-01 09:54:43,894] {dag.py:2371} INFO - Sync 1 DAGs
+[2026-03-01 09:54:43,944] {logging_mixin.py:115} INFO - [2026-03-01 09:54:43,944] {dag.py:2919} INFO - Setting next_dagrun for fetch_wikipedia_page to 2026-03-01T09:00:00+00:00, run_after=2026-03-01T10:00:00+00:00
+[2026-03-01 09:54:43,962] {processor.py:161} INFO - Processing /opt/airflow/dags/fetch_wikipedia.py took 0.477 seconds
+[2026-03-01 09:55:14,920] {processor.py:153} INFO - Started process (PID=3391) to work on /opt/airflow/dags/fetch_wikipedia.py
+[2026-03-01 09:55:14,930] {processor.py:641} INFO - Processing file /opt/airflow/dags/fetch_wikipedia.py for tasks to queue
+[2026-03-01 09:55:14,931] {logging_mixin.py:115} INFO - [2026-03-01 09:55:14,930] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/fetch_wikipedia.py
+[2026-03-01 09:55:14,961] {processor.py:651} INFO - DAG(s) dict_keys(['fetch_wikipedia_page']) retrieved from /opt/airflow/dags/fetch_wikipedia.py
+[2026-03-01 09:55:15,386] {logging_mixin.py:115} INFO - [2026-03-01 09:55:15,386] {dag.py:2371} INFO - Sync 1 DAGs
+[2026-03-01 09:55:15,431] {logging_mixin.py:115} INFO - [2026-03-01 09:55:15,431] {dag.py:2919} INFO - Setting next_dagrun for fetch_wikipedia_page to 2026-03-01T09:00:00+00:00, run_after=2026-03-01T10:00:00+00:00
+[2026-03-01 09:55:15,445] {processor.py:161} INFO - Processing /opt/airflow/dags/fetch_wikipedia.py took 0.528 seconds
+[2026-03-01 09:55:45,690] {processor.py:153} INFO - Started process (PID=3444) to work on /opt/airflow/dags/fetch_wikipedia.py
+[2026-03-01 09:55:45,699] {processor.py:641} INFO - Processing file /opt/airflow/dags/fetch_wikipedia.py for tasks to queue
+[2026-03-01 09:55:45,699] {logging_mixin.py:115} INFO - [2026-03-01 09:55:45,699] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/fetch_wikipedia.py
+[2026-03-01 09:55:45,736] {processor.py:651} INFO - DAG(s) dict_keys(['fetch_wikipedia_page']) retrieved from /opt/airflow/dags/fetch_wikipedia.py
+[2026-03-01 09:55:45,794] {logging_mixin.py:115} INFO - [2026-03-01 09:55:45,794] {dag.py:2371} INFO - Sync 1 DAGs
+[2026-03-01 09:55:45,817] {logging_mixin.py:115} INFO - [2026-03-01 09:55:45,816] {dag.py:2919} INFO - Setting next_dagrun for fetch_wikipedia_page to 2026-03-01T09:00:00+00:00, run_after=2026-03-01T10:00:00+00:00
+[2026-03-01 09:55:45,833] {processor.py:161} INFO - Processing /opt/airflow/dags/fetch_wikipedia.py took 0.146 seconds
+[2026-03-01 09:56:15,899] {processor.py:153} INFO - Started process (PID=3506) to work on /opt/airflow/dags/fetch_wikipedia.py
+[2026-03-01 09:56:16,019] {processor.py:641} INFO - Processing file /opt/airflow/dags/fetch_wikipedia.py for tasks to queue
+[2026-03-01 09:56:16,020] {logging_mixin.py:115} INFO - [2026-03-01 09:56:16,019] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/fetch_wikipedia.py
+[2026-03-01 09:56:16,040] {processor.py:651} INFO - DAG(s) dict_keys(['fetch_wikipedia_page']) retrieved from /opt/airflow/dags/fetch_wikipedia.py
+[2026-03-01 09:56:16,295] {logging_mixin.py:115} INFO - [2026-03-01 09:56:16,295] {dag.py:2371} INFO - Sync 1 DAGs
+[2026-03-01 09:56:16,416] {logging_mixin.py:115} INFO - [2026-03-01 09:56:16,416] {dag.py:2919} INFO - Setting next_dagrun for fetch_wikipedia_page to 2026-03-01T09:00:00+00:00, run_after=2026-03-01T10:00:00+00:00
+[2026-03-01 09:56:16,444] {processor.py:161} INFO - Processing /opt/airflow/dags/fetch_wikipedia.py took 0.547 seconds
+[2026-03-01 09:56:47,122] {processor.py:153} INFO - Started process (PID=3558) to work on /opt/airflow/dags/fetch_wikipedia.py
+[2026-03-01 09:56:47,123] {processor.py:641} INFO - Processing file /opt/airflow/dags/fetch_wikipedia.py for tasks to queue
+[2026-03-01 09:56:47,123] {logging_mixin.py:115} INFO - [2026-03-01 09:56:47,123] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/fetch_wikipedia.py
+[2026-03-01 09:56:47,129] {processor.py:651} INFO - DAG(s) dict_keys(['fetch_wikipedia_page']) retrieved from /opt/airflow/dags/fetch_wikipedia.py
+[2026-03-01 09:56:47,167] {logging_mixin.py:115} INFO - [2026-03-01 09:56:47,167] {dag.py:2371} INFO - Sync 1 DAGs
+[2026-03-01 09:56:47,190] {logging_mixin.py:115} INFO - [2026-03-01 09:56:47,190] {dag.py:2919} INFO - Setting next_dagrun for fetch_wikipedia_page to 2026-03-01T09:00:00+00:00, run_after=2026-03-01T10:00:00+00:00
+[2026-03-01 09:56:47,197] {processor.py:161} INFO - Processing /opt/airflow/dags/fetch_wikipedia.py took 0.078 seconds
+[2026-03-01 09:57:18,120] {processor.py:153} INFO - Started process (PID=3620) to work on /opt/airflow/dags/fetch_wikipedia.py
+[2026-03-01 09:57:18,121] {processor.py:641} INFO - Processing file /opt/airflow/dags/fetch_wikipedia.py for tasks to queue
+[2026-03-01 09:57:18,122] {logging_mixin.py:115} INFO - [2026-03-01 09:57:18,121] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/fetch_wikipedia.py
+[2026-03-01 09:57:18,130] {processor.py:651} INFO - DAG(s) dict_keys(['fetch_wikipedia_page']) retrieved from /opt/airflow/dags/fetch_wikipedia.py
+[2026-03-01 09:57:18,169] {logging_mixin.py:115} INFO - [2026-03-01 09:57:18,169] {dag.py:2371} INFO - Sync 1 DAGs
+[2026-03-01 09:57:18,186] {logging_mixin.py:115} INFO - [2026-03-01 09:57:18,186] {dag.py:2919} INFO - Setting next_dagrun for fetch_wikipedia_page to 2026-03-01T09:00:00+00:00, run_after=2026-03-01T10:00:00+00:00
+[2026-03-01 09:57:18,194] {processor.py:161} INFO - Processing /opt/airflow/dags/fetch_wikipedia.py took 0.076 seconds
