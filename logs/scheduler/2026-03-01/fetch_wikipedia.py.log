@@ -681,3 +681,17 @@ TypeError: __init__() got an unexpected keyword argument 'schedule'
 [2026-03-01 09:57:18,169] {logging_mixin.py:115} INFO - [2026-03-01 09:57:18,169] {dag.py:2371} INFO - Sync 1 DAGs
 [2026-03-01 09:57:18,186] {logging_mixin.py:115} INFO - [2026-03-01 09:57:18,186] {dag.py:2919} INFO - Setting next_dagrun for fetch_wikipedia_page to 2026-03-01T09:00:00+00:00, run_after=2026-03-01T10:00:00+00:00
 [2026-03-01 09:57:18,194] {processor.py:161} INFO - Processing /opt/airflow/dags/fetch_wikipedia.py took 0.076 seconds
+[2026-03-01 09:57:48,359] {processor.py:153} INFO - Started process (PID=3682) to work on /opt/airflow/dags/fetch_wikipedia.py
+[2026-03-01 09:57:48,359] {processor.py:641} INFO - Processing file /opt/airflow/dags/fetch_wikipedia.py for tasks to queue
+[2026-03-01 09:57:48,359] {logging_mixin.py:115} INFO - [2026-03-01 09:57:48,359] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/fetch_wikipedia.py
+[2026-03-01 09:57:48,364] {processor.py:651} INFO - DAG(s) dict_keys(['fetch_wikipedia_page']) retrieved from /opt/airflow/dags/fetch_wikipedia.py
+[2026-03-01 09:57:48,414] {logging_mixin.py:115} INFO - [2026-03-01 09:57:48,414] {dag.py:2371} INFO - Sync 1 DAGs
+[2026-03-01 09:57:48,445] {logging_mixin.py:115} INFO - [2026-03-01 09:57:48,445] {dag.py:2919} INFO - Setting next_dagrun for fetch_wikipedia_page to 2026-03-01T09:00:00+00:00, run_after=2026-03-01T10:00:00+00:00
+[2026-03-01 09:57:48,464] {processor.py:161} INFO - Processing /opt/airflow/dags/fetch_wikipedia.py took 0.108 seconds
+[2026-03-01 09:58:18,909] {processor.py:153} INFO - Started process (PID=3735) to work on /opt/airflow/dags/fetch_wikipedia.py
+[2026-03-01 09:58:18,921] {processor.py:641} INFO - Processing file /opt/airflow/dags/fetch_wikipedia.py for tasks to queue
+[2026-03-01 09:58:18,922] {logging_mixin.py:115} INFO - [2026-03-01 09:58:18,922] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/fetch_wikipedia.py
+[2026-03-01 09:58:18,928] {processor.py:651} INFO - DAG(s) dict_keys(['fetch_wikipedia_page']) retrieved from /opt/airflow/dags/fetch_wikipedia.py
+[2026-03-01 09:58:18,984] {logging_mixin.py:115} INFO - [2026-03-01 09:58:18,984] {dag.py:2371} INFO - Sync 1 DAGs
+[2026-03-01 09:58:19,019] {logging_mixin.py:115} INFO - [2026-03-01 09:58:19,018] {dag.py:2919} INFO - Setting next_dagrun for fetch_wikipedia_page to 2026-03-01T09:00:00+00:00, run_after=2026-03-01T10:00:00+00:00
+[2026-03-01 09:58:19,045] {processor.py:161} INFO - Processing /opt/airflow/dags/fetch_wikipedia.py took 0.140 seconds

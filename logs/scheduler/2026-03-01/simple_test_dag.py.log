@@ -587,3 +587,17 @@
 [2026-03-01 09:57:21,517] {logging_mixin.py:115} INFO - [2026-03-01 09:57:21,517] {dag.py:2371} INFO - Sync 1 DAGs
 [2026-03-01 09:57:21,586] {logging_mixin.py:115} INFO - [2026-03-01 09:57:21,586] {dag.py:2919} INFO - Setting next_dagrun for sequential_workflow to None, run_after=None
 [2026-03-01 09:57:21,626] {processor.py:161} INFO - Processing /opt/airflow/dags/simple_test_dag.py took 0.263 seconds
+[2026-03-01 09:57:51,716] {processor.py:153} INFO - Started process (PID=3686) to work on /opt/airflow/dags/simple_test_dag.py
+[2026-03-01 09:57:51,721] {processor.py:641} INFO - Processing file /opt/airflow/dags/simple_test_dag.py for tasks to queue
+[2026-03-01 09:57:51,721] {logging_mixin.py:115} INFO - [2026-03-01 09:57:51,721] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/simple_test_dag.py
+[2026-03-01 09:57:51,734] {processor.py:651} INFO - DAG(s) dict_keys(['sequential_workflow']) retrieved from /opt/airflow/dags/simple_test_dag.py
+[2026-03-01 09:57:51,781] {logging_mixin.py:115} INFO - [2026-03-01 09:57:51,780] {dag.py:2371} INFO - Sync 1 DAGs
+[2026-03-01 09:57:51,819] {logging_mixin.py:115} INFO - [2026-03-01 09:57:51,819] {dag.py:2919} INFO - Setting next_dagrun for sequential_workflow to None, run_after=None
+[2026-03-01 09:57:51,836] {processor.py:161} INFO - Processing /opt/airflow/dags/simple_test_dag.py took 0.125 seconds
+[2026-03-01 09:58:22,228] {processor.py:153} INFO - Started process (PID=3739) to work on /opt/airflow/dags/simple_test_dag.py
+[2026-03-01 09:58:22,245] {processor.py:641} INFO - Processing file /opt/airflow/dags/simple_test_dag.py for tasks to queue
+[2026-03-01 09:58:22,246] {logging_mixin.py:115} INFO - [2026-03-01 09:58:22,246] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/simple_test_dag.py
+[2026-03-01 09:58:22,251] {processor.py:651} INFO - DAG(s) dict_keys(['sequential_workflow']) retrieved from /opt/airflow/dags/simple_test_dag.py
+[2026-03-01 09:58:22,437] {logging_mixin.py:115} INFO - [2026-03-01 09:58:22,437] {dag.py:2371} INFO - Sync 1 DAGs
+[2026-03-01 09:58:22,623] {logging_mixin.py:115} INFO - [2026-03-01 09:58:22,623] {dag.py:2919} INFO - Setting next_dagrun for sequential_workflow to None, run_after=None
+[2026-03-01 09:58:22,840] {processor.py:161} INFO - Processing /opt/airflow/dags/simple_test_dag.py took 0.625 seconds
